@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <!-- Tutorial: Creating a Basic HTML Form -->
+
+    <!-- Step 1: Create a form element -->
+    <!-- The form element acts as a container for input elements -->
+    <form action="/submit" method="post">
+      <!-- Step 2: Add input elements -->
+      <!-- Text input for user's name -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <br />
+
+      <!-- Email input for user's email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <br />
+
+      <!-- Password input for user's password -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+      <br />
+
+      <!-- Fieldset for personal information -->
+      <fieldset>
+        <legend>Personal Information</legend>
+        <!-- Date input for user's birthdate -->
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate" required />
+        <br />
+
+        <!-- Number input for user's age -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="120" required />
+        <br />
+
+        <!-- Radio buttons for gender selection -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <br />
+      </fieldset>
+
+      <!-- Fieldset for preferences -->
+      <fieldset>
+        <legend>Preferences</legend>
+        <!-- Checkbox for subscription -->
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" />
+        <br />
+
+        <!-- Dropdown menu for country selection -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="uk">UK</option>
+        </select>
+        <br />
+
+        <!-- Multiple select for hobbies -->
+        <label for="hobbies">Hobbies:</label>
+        <select id="hobbies" name="hobbies" multiple>
+          <option value="reading">Reading</option>
+          <option value="traveling">Traveling</option>
+          <option value="sports">Sports</option>
+          <option value="music">Music</option>
+        </select>
+        <br />
+      </fieldset>
+
+      <!-- Textarea for additional comments -->
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments"></textarea>
+      <br />
+
+      <!-- Step 3: Add a submit button -->
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- End of tutorial -->
+  </body>
+</html>

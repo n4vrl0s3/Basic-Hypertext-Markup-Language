@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Merging</title>
+  </head>
+  <body>
+    <!-- 
+    Tutorial: Table Merging in HTML
+
+    In HTML, you can merge table cells using the `colspan` and `rowspan` attributes.
+
+    Example 1: Merging Columns
+    The `colspan` attribute allows you to merge cells horizontally across multiple columns.
+    -->
+    <table border="1">
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+      </tr>
+      <tr>
+        <td colspan="2">Merged Column 1 and 2</td>
+        <td>Column 3</td>
+      </tr>
+      <tr>
+        <td>Column 1</td>
+        <td>Column 2</td>
+        <td>Column 3</td>
+      </tr>
+    </table>
+    <!-- 
+    Example 2: Merging Rows
+    The `rowspan` attribute allows you to merge cells vertically across multiple rows.
+    -->
+    <table border="1">
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Merged Row 1 and 2</td>
+        <td>Column 2</td>
+        <td>Column 3</td>
+      </tr>
+      <tr>
+        <td>Column 2</td>
+        <td>Column 3</td>
+      </tr>
+    </table>
+    <!-- 
+    Example 3: Combining `colspan` and `rowspan`
+    You can also combine both `colspan` and `rowspan` to merge cells both horizontally and vertically.
+    -->
+    <table border="1">
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+      </tr>
+      <tr>
+        <td colspan="2" rowspan="2">Merged Column 1 and 2, Row 1 and 2</td>
+        <td>Column 3</td>
+      </tr>
+      <tr>
+        <td>Column 3</td>
+      </tr>
+      <tr>
+        <td>Column 1</td>
+        <td>Column 2</td>
+        <td>Column 3</td>
+      </tr>
+    </table>
+  </body>
+</html>
