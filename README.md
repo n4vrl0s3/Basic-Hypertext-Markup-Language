@@ -92,7 +92,7 @@ git clone https://github.com/n4vrl0s3/Basic-HTML-Project.git
 
 ## License
 
-This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 <hr><br>
 
