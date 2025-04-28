@@ -76,7 +76,7 @@ Below is a demonstration of a simple HTML structure:
 1. **Clone this Repository**
 
 ```bash
-git clone https://github.com/n4vrl0s3/Basic-HTML-Project.git
+git clone https://github.com/n4vrl0s3/Basic-Hypertext-Markup-Language.git
 ```
 
 2. **Open the project in your preferred code editor**
